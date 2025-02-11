@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CA60A0A2D5B0CEB00694F78 /* mindmooseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA60A092D5B0CEB00694F78 /* mindmooseApp.swift */; };
+		1CA60A0C2D5B0CEB00694F78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA60A0B2D5B0CEB00694F78 /* ContentView.swift */; };
+		1CA60A0E2D5B0CED00694F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA60A0D2D5B0CED00694F78 /* Assets.xcassets */; };
+		1CA60A112D5B0CED00694F78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA60A102D5B0CED00694F78 /* Preview Assets.xcassets */; };
+		1CA60A132D5B0CED00694F78 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA60A122D5B0CED00694F78 /* Persistence.swift */; };
+		1CA60A162D5B0CED00694F78 /* mindmoose.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CA60A142D5B0CED00694F78 /* mindmoose.xcdatamodeld */; };
+		1CA60A212D5B0CED00694F78 /* mindmooseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA60A202D5B0CED00694F78 /* mindmooseTests.swift */; };
+		1CA60A2B2D5B0CED00694F78 /* mindmooseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA60A2A2D5B0CED00694F78 /* mindmooseUITests.swift */; };
+		1CA60A2D2D5B0CED00694F78 /* mindmooseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA60A2C2D5B0CED00694F78 /* mindmooseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CA60A1D2D5B0CED00694F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CA609FE2D5B0CEB00694F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA60A052D5B0CEB00694F78;
+			remoteInfo = mindmoose;
+		};
+		1CA60A272D5B0CED00694F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CA609FE2D5B0CEB00694F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA60A052D5B0CEB00694F78;
+			remoteInfo = mindmoose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CA60A062D5B0CEB00694F78 /* mindmoose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mindmoose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA60A092D5B0CEB00694F78 /* mindmooseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindmooseApp.swift; sourceTree = "<group>"; };
+		1CA60A0B2D5B0CEB00694F78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CA60A0D2D5B0CED00694F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CA60A102D5B0CED00694F78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CA60A122D5B0CED00694F78 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1CA60A152D5B0CED00694F78 /* mindmoose.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mindmoose.xcdatamodel; sourceTree = "<group>"; };
+		1CA60A172D5B0CED00694F78 /* mindmoose.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mindmoose.entitlements; sourceTree = "<group>"; };
+		1CA60A1C2D5B0CED00694F78 /* mindmooseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mindmooseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA60A202D5B0CED00694F78 /* mindmooseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindmooseTests.swift; sourceTree = "<group>"; };
+		1CA60A262D5B0CED00694F78 /* mindmooseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mindmooseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA60A2A2D5B0CED00694F78 /* mindmooseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindmooseUITests.swift; sourceTree = "<group>"; };
+		1CA60A2C2D5B0CED00694F78 /* mindmooseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindmooseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CA60A032D5B0CEB00694F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA60A192D5B0CED00694F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA60A232D5B0CED00694F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA609FD2D5B0CEB00694F78 = {
+			isa = PBXGroup;
+			children = (
+				1CA60A082D5B0CEB00694F78 /* mindmoose */,
+				1CA60A1F2D5B0CED00694F78 /* mindmooseTests */,
+				1CA60A292D5B0CED00694F78 /* mindmooseUITests */,
+				1CA60A072D5B0CEB00694F78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CA60A072D5B0CEB00694F78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CA60A062D5B0CEB00694F78 /* mindmoose.app */,
+				1CA60A1C2D5B0CED00694F78 /* mindmooseTests.xctest */,
+				1CA60A262D5B0CED00694F78 /* mindmooseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CA60A082D5B0CEB00694F78 /* mindmoose */ = {
+			isa = PBXGroup;
+			children = (
+				1CA60A092D5B0CEB00694F78 /* mindmooseApp.swift */,
+				1CA60A0B2D5B0CEB00694F78 /* ContentView.swift */,
+				1CA60A0D2D5B0CED00694F78 /* Assets.xcassets */,
+				1CA60A122D5B0CED00694F78 /* Persistence.swift */,
+				1CA60A172D5B0CED00694F78 /* mindmoose.entitlements */,
+				1CA60A142D5B0CED00694F78 /* mindmoose.xcdatamodeld */,
+				1CA60A0F2D5B0CED00694F78 /* Preview Content */,
+			);
+			path = mindmoose;
+			sourceTree = "<group>";
+		};
+		1CA60A0F2D5B0CED00694F78 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1CA60A102D5B0CED00694F78 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CA60A1F2D5B0CED00694F78 /* mindmooseTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CA60A202D5B0CED00694F78 /* mindmooseTests.swift */,
+			);
+			path = mindmooseTests;
+			sourceTree = "<group>";
+		};
+		1CA60A292D5B0CED00694F78 /* mindmooseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CA60A2A2D5B0CED00694F78 /* mindmooseUITests.swift */,
+				1CA60A2C2D5B0CED00694F78 /* mindmooseUITestsLaunchTests.swift */,
+			);
+			path = mindmooseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CA60A052D5B0CEB00694F78 /* mindmoose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA60A302D5B0CED00694F78 /* Build configuration list for PBXNativeTarget "mindmoose" */;
+			buildPhases = (
+				1CA60A022D5B0CEB00694F78 /* Sources */,
+				1CA60A032D5B0CEB00694F78 /* Frameworks */,
+				1CA60A042D5B0CEB00694F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mindmoose;
+			productName = mindmoose;
+			productReference = 1CA60A062D5B0CEB00694F78 /* mindmoose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CA60A1B2D5B0CED00694F78 /* mindmooseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA60A332D5B0CED00694F78 /* Build configuration list for PBXNativeTarget "mindmooseTests" */;
+			buildPhases = (
+				1CA60A182D5B0CED00694F78 /* Sources */,
+				1CA60A192D5B0CED00694F78 /* Frameworks */,
+				1CA60A1A2D5B0CED00694F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA60A1E2D5B0CED00694F78 /* PBXTargetDependency */,
+			);
+			name = mindmooseTests;
+			productName = mindmooseTests;
+			productReference = 1CA60A1C2D5B0CED00694F78 /* mindmooseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CA60A252D5B0CED00694F78 /* mindmooseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA60A362D5B0CED00694F78 /* Build configuration list for PBXNativeTarget "mindmooseUITests" */;
+			buildPhases = (
+				1CA60A222D5B0CED00694F78 /* Sources */,
+				1CA60A232D5B0CED00694F78 /* Frameworks */,
+				1CA60A242D5B0CED00694F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA60A282D5B0CED00694F78 /* PBXTargetDependency */,
+			);
+			name = mindmooseUITests;
+			productName = mindmooseUITests;
+			productReference = 1CA60A262D5B0CED00694F78 /* mindmooseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CA609FE2D5B0CEB00694F78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1CA60A052D5B0CEB00694F78 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1CA60A1B2D5B0CED00694F78 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1CA60A052D5B0CEB00694F78;
+					};
+					1CA60A252D5B0CED00694F78 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1CA60A052D5B0CEB00694F78;
+					};
+				};
+			};
+			buildConfigurationList = 1CA60A012D5B0CEB00694F78 /* Build configuration list for PBXProject "mindmoose" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CA609FD2D5B0CEB00694F78;
+			productRefGroup = 1CA60A072D5B0CEB00694F78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CA60A052D5B0CEB00694F78 /* mindmoose */,
+				1CA60A1B2D5B0CED00694F78 /* mindmooseTests */,
+				1CA60A252D5B0CED00694F78 /* mindmooseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CA60A042D5B0CEB00694F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA60A112D5B0CED00694F78 /* Preview Assets.xcassets in Resources */,
+				1CA60A0E2D5B0CED00694F78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA60A1A2D5B0CED00694F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA60A242D5B0CED00694F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CA60A022D5B0CEB00694F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA60A132D5B0CED00694F78 /* Persistence.swift in Sources */,
+				1CA60A162D5B0CED00694F78 /* mindmoose.xcdatamodeld in Sources */,
+				1CA60A0C2D5B0CEB00694F78 /* ContentView.swift in Sources */,
+				1CA60A0A2D5B0CEB00694F78 /* mindmooseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA60A182D5B0CED00694F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA60A212D5B0CED00694F78 /* mindmooseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA60A222D5B0CED00694F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA60A2D2D5B0CED00694F78 /* mindmooseUITestsLaunchTests.swift in Sources */,
+				1CA60A2B2D5B0CED00694F78 /* mindmooseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CA60A1E2D5B0CED00694F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA60A052D5B0CEB00694F78 /* mindmoose */;
+			targetProxy = 1CA60A1D2D5B0CED00694F78 /* PBXContainerItemProxy */;
+		};
+		1CA60A282D5B0CED00694F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA60A052D5B0CEB00694F78 /* mindmoose */;
+			targetProxy = 1CA60A272D5B0CED00694F78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CA60A2E2D5B0CED00694F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CA60A2F2D5B0CED00694F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1CA60A312D5B0CED00694F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mindmoose/mindmoose.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mindmoose/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = platemate.ai.mindmoose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1CA60A322D5B0CED00694F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mindmoose/mindmoose.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mindmoose/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = platemate.ai.mindmoose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1CA60A342D5B0CED00694F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = platemate.ai.mindmooseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mindmoose.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mindmoose";
+			};
+			name = Debug;
+		};
+		1CA60A352D5B0CED00694F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = platemate.ai.mindmooseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mindmoose.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mindmoose";
+			};
+			name = Release;
+		};
+		1CA60A372D5B0CED00694F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = platemate.ai.mindmooseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = mindmoose;
+			};
+			name = Debug;
+		};
+		1CA60A382D5B0CED00694F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = platemate.ai.mindmooseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = mindmoose;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CA60A012D5B0CEB00694F78 /* Build configuration list for PBXProject "mindmoose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA60A2E2D5B0CED00694F78 /* Debug */,
+				1CA60A2F2D5B0CED00694F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA60A302D5B0CED00694F78 /* Build configuration list for PBXNativeTarget "mindmoose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA60A312D5B0CED00694F78 /* Debug */,
+				1CA60A322D5B0CED00694F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA60A332D5B0CED00694F78 /* Build configuration list for PBXNativeTarget "mindmooseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA60A342D5B0CED00694F78 /* Debug */,
+				1CA60A352D5B0CED00694F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA60A362D5B0CED00694F78 /* Build configuration list for PBXNativeTarget "mindmooseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA60A372D5B0CED00694F78 /* Debug */,
+				1CA60A382D5B0CED00694F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1CA60A142D5B0CED00694F78 /* mindmoose.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1CA60A152D5B0CED00694F78 /* mindmoose.xcdatamodel */,
+			);
+			currentVersion = 1CA60A152D5B0CED00694F78 /* mindmoose.xcdatamodel */;
+			path = mindmoose.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1CA609FE2D5B0CEB00694F78 /* Project object */;
+}
